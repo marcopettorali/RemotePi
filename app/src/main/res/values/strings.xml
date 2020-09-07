@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">RemotePi</string>
+    <string name="youtube_search_go_button_text">GO</string>
+    <string name="youtube_search_text_view_hint">Search on YouTube...</string>
+    <string name="title_main">Menu</string>
+    <string name="title_mouse">Mouse</string>
+    <string name="browser_search_text_view_hint">Search on the internet...</string>
+    <string name="left_button">Left</string>
+    <string name="right_button">Right</string>
+    <string name="left_corner_button">↙️</string>
+    <string name="right_corner_button">↗️</string>
+    <string name="network_fail_toast">Check your ip address and port</string>
+    <string name="title_go_button">GO</string>
+    <string name="scan_prompt_message">Scan the QR code to connect with the server</string>
+    <string name="on_correct_connection_with_server_snackbar">Successfully connected to %1$s</string>
+    <string name="on_failed_connection_with_server_snackbar">Something went wrong. Check your internet connection and try again (are you connected at the same WiFi of the server?)</string>
+    <string name="send_text_button">Send</string>
+    <string name="page_down_button">Page\ndown</string>
+    <string name="page_up_button">Page\nup</string>
+</resources>

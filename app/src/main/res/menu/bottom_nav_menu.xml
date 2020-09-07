@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mainFragment"
+        android:icon="@drawable/ic_baseline_menu_24"
+        android:title="@string/title_main" />
+
+    <item
+        android:id="@+id/mouseFragment"
+        android:icon="@drawable/ic_baseline_mouse_24"
+        android:title="@string/title_mouse" />
+
+</menu>

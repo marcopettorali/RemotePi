@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.marcopettorali.remotepi.main.ui.browser.BrowserViewModel" />
+    </data>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/browserColor"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="50dp">
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="152dp"
+            app:srcCompat="@drawable/browser_icon" />
+
+        <EditText
+            android:id="@+id/browserSearchTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="#FFFFFF"
+            android:ems="10"
+            android:hint="@string/browser_search_text_view_hint"
+            android:imeOptions="actionSearch"
+            android:importantForAutofill="no"
+            android:inputType="textWebEditText|text"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/browserSearchGoButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:onClick="@{()->viewModel.onGoButtonClicked()}"
+            android:text="@string/youtube_search_go_button_text" />
+    </LinearLayout>
+</layout>

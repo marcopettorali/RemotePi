@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/navigation"
+    app:startDestination="@id/titleFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.marcopettorali.remotepi.main.ui.main_menu.MainFragment"
+        android:label="RemotePi" >
+        <action
+            android:id="@+id/action_mainFragment_to_youtubeFragment"
+            app:destination="@id/youtubeFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_browserFragment"
+            app:destination="@id/browserFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/youtubeFragment"
+        android:name="com.marcopettorali.remotepi.main.ui.youtube.YoutubeFragment"
+        android:label="RemotePi - YouTube" />
+    <fragment
+        android:id="@+id/browserFragment"
+        android:name="com.marcopettorali.remotepi.main.ui.browser.BrowserFragment"
+        android:label="RemotePi - Browser" />
+    <fragment
+        android:id="@+id/titleFragment"
+        android:name="com.marcopettorali.remotepi.main.ui.title.TitleFragment"
+        android:label="Title">
+        <action
+            android:id="@+id/action_titleFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mouseFragment"
+        android:name="com.marcopettorali.remotepi.mouse.MouseFragment"
+        android:label="MouseFragment" />
+</navigation>
