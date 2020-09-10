@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
 
         val navController = this.findNavController(R.id.nav_host_fragment)
         val appBarConfiguration =
-            AppBarConfiguration(setOf(R.id.mainFragment, R.id.mouseFragment))
+            AppBarConfiguration(setOf(R.id.mainFragment, R.id.mouseFragment, R.id.keyboardFragment))
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
 

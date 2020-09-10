@@ -71,13 +71,6 @@ class MouseFragment : Fragment(), SensorEventListener {
                 motionEvent
             )
         }
-        binding.sendTextButton.setOnTouchListener { view, motionEvent ->
-            mouseViewModel.onSendTextButtonClicked(
-                view,
-                motionEvent,
-                binding.sendTextEditText.text.toString()
-            )
-        }
 
         return binding.root
     }

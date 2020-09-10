@@ -97,10 +97,4 @@ class MouseViewModel(private val application: Application) : ViewModel() {
         NetworkUtils.send(msg)
         return true
     }
-
-    fun onSendTextButtonClicked(view: View, event: MotionEvent, text: String): Boolean {
-        NetworkUtils.send(TEXT_HEADER + text)
-        return true
-    }
-
 }

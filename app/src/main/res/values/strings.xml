@@ -1,10 +1,10 @@
 <resources>
     <string name="app_name">RemotePi</string>
     <string name="youtube_search_go_button_text">GO</string>
-    <string name="youtube_search_text_view_hint">Search on YouTube...</string>
+    <string name="youtube_search_text_view_hint">Search on YouTube…</string>
     <string name="title_main">Menu</string>
     <string name="title_mouse">Mouse</string>
-    <string name="browser_search_text_view_hint">Search on the internet...</string>
+    <string name="browser_search_text_view_hint">Search on the internet…</string>
     <string name="left_button">Left</string>
     <string name="right_button">Right</string>
     <string name="left_corner_button">↙️</string>
@@ -17,4 +17,17 @@
     <string name="send_text_button">Send</string>
     <string name="page_down_button">Page\ndown</string>
     <string name="page_up_button">Page\nup</string>
+    <string name="keyboard_title">Keyboard</string>
+
+    <string name="esc_button">ESC</string>
+    <string name="tab_button">TAB</string>
+    <string name="ctrl_button">Ctrl</string>
+    <string name="alt_button">Alt</string>
+    <string name="home_button">HOME</string>
+    <string name="end_button">END</string>
+    <string name="arrow_up_button">↑</string>
+    <string name="arrow_down_button">↓</string>
+    <string name="arrow_left_button">←</string>
+    <string name="arrow_right_button">→</string>
+    <string name="backspace_button">⌫</string>
 </resources>

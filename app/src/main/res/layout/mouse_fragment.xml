@@ -83,40 +83,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/page_down_button"
-            app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/pageUpButton" />
-
-        <LinearLayout
-            android:id="@+id/linearLayout3"
-            android:layout_width="342dp"
-            android:layout_height="75dp"
-            android:gravity="center"
-            android:orientation="horizontal"
             app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/pageDownButton"
-            app:layout_constraintVertical_bias="1.0">
-
-            <EditText
-                android:id="@+id/sendTextEditText"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:ems="10"
-                android:inputType="textPersonName" />
-
-            <Button
-                android:id="@+id/sendTextButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="40dp"
-                android:text="@string/send_text_button" />
-
-
-        </LinearLayout>
+            app:layout_constraintTop_toBottomOf="@+id/pageUpButton" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

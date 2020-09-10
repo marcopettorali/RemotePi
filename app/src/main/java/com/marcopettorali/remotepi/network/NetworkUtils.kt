@@ -12,6 +12,10 @@ const val HIDE_QR_MSG = "HQ"
 const val PING_MSG = "PI"
 const val TEXT_HEADER = "TX"
 
+//keys
+const val KEY_HEADER = "KE"
+const val KEY_START = "KS"
+
 //mouse constants
 const val MOUSE_BUTTON_LEFT_DOWN_MSG = "BTLD"
 const val MOUSE_BUTTON_LEFT_UP_MSG = "BTLU"

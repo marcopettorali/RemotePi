@@ -10,4 +10,9 @@
         android:icon="@drawable/ic_baseline_mouse_24"
         android:title="@string/title_mouse" />
 
+    <item
+        android:id="@+id/keyboardFragment"
+        android:icon="@drawable/ic_baseline_keyboard_24"
+        android:title="@string/keyboard_title" />
+
 </menu>
